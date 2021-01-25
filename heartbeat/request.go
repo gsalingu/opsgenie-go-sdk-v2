@@ -29,7 +29,7 @@ func (r pingRequest) ResourcePath() string {
 }
 
 func (r pingRequest) Method() string {
-	return http.MethodGet
+	return http.MethodPost
 }
 
 type getRequest struct {
